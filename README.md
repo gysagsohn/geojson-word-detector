@@ -95,6 +95,28 @@ The enhanced scanner:
     - Highlights tiny features that might be missed visually
     - Plots all valid shapes on one canvas
 
+## Answering the Challenge Prompt
+The original challenge asks:
+
+"Please return the 5 letter word (in all CAPITAL letters) that is drawn where the features are enclosed inside the following Polygon:"
+``` python
+
+[
+    (151.19982759600163, -33.889076995548066),
+    (151.19982759600163, -33.88917835060116),
+    (151.20015211737098, -33.88917835060116),
+    (151.20015211737098, -33.889076995548066),
+    (151.19982759600163, -33.889076995548066)
+]
+```
+
+To solve this precisely, we created answer.py to use that exact bounding box and visualize only the features enclosed within it.
+
+The result was the word:
+POWER
+
+This confirms the correct answer to the challenge.
+
 ## Setup Instructions
 
 1. Clone the repo
