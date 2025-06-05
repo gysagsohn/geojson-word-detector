@@ -33,7 +33,7 @@ polygon_coords = [
 ]
 ```
 This gave us a cropped view, cutting off the "O" completely:
-![Manual Box – PWER](./images/manual_box_pwer.png)
+![Manual Box – PWER](./images/manual_box_pwer.png.png)
 
 After slightly adjusting the coordinates, we captured the full lower line:
 ![Manual Box – POWER](./images/manual_box_power.png)
