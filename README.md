@@ -114,6 +114,7 @@ To solve this precisely, we created answer.py to use that exact bounding box and
 
 The result was the word:
 POWER
+![Answer](./images/answer.png)
 
 This confirms the correct answer to the challenge.
 
